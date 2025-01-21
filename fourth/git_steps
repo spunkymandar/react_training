@@ -1,0 +1,7 @@
+1. remove the .git folder from subfolders (if any)
+2. go to the git hub and create a repository e.g. react_training
+3. go to the parent directory of the project 
+4. git init
+5. git add .
+6. git commit -m ""
+7. git push https://github.com/spunkymandar/react_training
