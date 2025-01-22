@@ -3,6 +3,7 @@ import './App.css';
 import LanguageSelector from './components/LanguageSelector';
 import ProductList from './components/ProductList';
 import Todos from './components/Todos';
+import List from './components/Home';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <LanguageSelector country='uk'></LanguageSelector>
      <ProductList></ProductList>
      <Todos></Todos>
+    
     </div>
   );
 }
