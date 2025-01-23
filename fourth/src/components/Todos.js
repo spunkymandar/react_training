@@ -6,7 +6,7 @@ const Todos=()=>{
     //const[todos,setTodos]=useState(['Learn React','Learn Angular']) : type 2
     const[todos,setTodos]=useState([
         {todoid:1,todoitem:'Learn React'},
-        {todoid:2,todoitem:'Learn Angular'}
+        {todoid:2,todoitem:'Learn Angular'},  
     ])
     const handleAddTodo=()=>{
         console.log("Button clicked!!")
