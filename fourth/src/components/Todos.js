@@ -16,7 +16,7 @@ const Todos=()=>{
             <p>ToDo's for this week</p>
             <input type="text"></input>
             <button onClick={handleAddTodo}>Add ToDo</button>
-            {todos.map(td=><li>{td}</li>)}
+            {todos.map(td=><li >{td}</li>)}
         </>
     )
 }
