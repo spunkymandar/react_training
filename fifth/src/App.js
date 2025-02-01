@@ -4,6 +4,7 @@ import BlogPosts from './BlogPosts';
 import ExampleComponent from './ExampleComponent';
 import MultipleDependencyComponent from './MultipleDependencyComponent';
 import DataFetcher from './DataFetcher';
+import Alert from './Alert';
 // import DataFetcher from './DataFetcher';
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
      {/* <ExampleComponent></ExampleComponent> */}
     
      {/* <MultipleDependencyComponent></MultipleDependencyComponent> */}
-    <DataFetcher></DataFetcher>
+    {/* <DataFetcher></DataFetcher> */}
+    <Alert></Alert>
     </div>
   );
 }

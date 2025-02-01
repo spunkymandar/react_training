@@ -1,14 +1,14 @@
 //Using function as a dependency in useEffect
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback,} from 'react';
 
 function DataFetcher() {
   const [data, setData] = useState(null);
   const [query, setQuery] = useState('react');
 
   // Define a function to fetch data based on a query
-  const fetchData = (async () => {
+  const fetchData = useCallback(async () => {
     try {
-      const response = await fetch(`https://api.example.com/search?q=${query}`);
+      const response = await fetch(`https://jsonplaceholder.typicode.com/posts?userId=${query}`);
       const result = await response.json();
       setData(result);
     } catch (error) {
