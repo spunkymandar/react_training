@@ -14,6 +14,7 @@ const BlogPosts=()=>{
     return(
         <>
             <div>posts loaded</div>
+            <input type="text"></input>
             {loadedPosts.map((post)=>
                 <li key={post.id}>{post.title}</li>
             )}
