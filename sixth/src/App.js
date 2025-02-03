@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import BlogPosts from './components/BlogPosts.jsx';
 import NewPost from './components/NewPost.jsx';
 import blogLogoImg from './blog-logo.jpg';
+import Emailform from './components/EmailForm.js';
 
 function App() {
   const [loadedPosts, setLoadedPosts] = useState([]);
@@ -23,6 +24,7 @@ function App() {
   return (
     <>
       <header>
+        <Emailform></Emailform>
         <img src={blogLogoImg} from="Pen & paper" />
         <h1>
           My <em>Effectful</em> Blog
