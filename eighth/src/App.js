@@ -1,6 +1,7 @@
 // import logo from './assets/logo.jpg';
 
 import App1 from "./App1";
+import App2 from "./App2";
 
 function App() {
   function handleSubmit(event) {
@@ -31,7 +32,8 @@ function App() {
 
   return(
     <>
-      <App1></App1>
+      {/* <App1></App1> */}
+      <App2></App2>
     </>
   )
 }
