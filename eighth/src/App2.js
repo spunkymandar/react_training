@@ -21,7 +21,8 @@ function App2() {
           <input type="password" id="password" ref={passwordRef} />
         </p>
         <p className="actions">
-          <button>Login</button>
+          <button type="submit">Login</button>
+          <button type='reset'>Reset</button>
         </p>
       </form>
     );

@@ -35,9 +35,9 @@ function App() {
   return(
     <>
       {/* <App1></App1> */}
-      {/* <App2></App2> */}
+      <App2></App2>
       {/* <App4></App4> */}
-      <App3></App3>
+      {/* <App3></App3> */}
      
     </>
   )

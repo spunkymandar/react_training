@@ -20,6 +20,7 @@ function App4() {
         </p>
         <p className="actions">
           <button>Login</button>
+          <button>Reset</button>
         </p>
       </form>
     );
