@@ -7,6 +7,7 @@ import {
   createBrowserRouter, 
   RouterProvider 
 } from 'react-router-dom';
+import { useState } from 'react';
 
 const myrouter = createBrowserRouter([
   {path:'/',element:<Dashboard/>},
@@ -14,10 +15,26 @@ const myrouter = createBrowserRouter([
 ]);
 
 function App() {
+  const[counter, setCounter]=useState(0)
+  function handleIncCounter(){
+    setCounter((prevCounter)=>prevCounter+1)
+  }
   
   return (
     <div>
+      <p>
+        <button onClick={handleIncCounter}>Increase Counter</button>
+      </p>
+      <p>
+        Current Counter:{counter}
+      </p>
+     
+      <hr></hr>
       <RouterProvider router={myrouter} />
+      <hr></hr>
+      <p>
+        This is footer
+      </p>
       
     </div>
   );
